@@ -44,7 +44,7 @@ module.exports = {
       rules: {},
     },
     {
-      files: ['*.spec.ts', '*.spec.tsx', '*.spec.js', '*.spec.jsx'],
+      files: ['*.*spec.ts', '*.*spec.tsx', '*.*spec.js', '*.*spec.jsx'],
       env: {
         jest: true,
       },

@@ -1,4 +1,12 @@
-# template--nx-nestjs--basic
+# showcase--nx-nestjs--multiple-jest-configs
+
+## Showcase
+
+1. Show the default Jest config with `pnpm exec nx test app-nest-1 -- --showConfig`
+2. Show an alternative Jest config with `pnpm exec nx test app-nest-1 -- --showConfig --config ./jest.config.alternative.ts`
+3. Run with alternative Jest config with `pnpm exec nx test app-nest-1 -- --config ./jest.config.alternative.ts`
+4. OR run with alternative Jest config with `pnpm exec nx run app-nest-1:test-alt-nx-jest`
+5. OR run with alternative Jest config with `pnpm exec nx run app-nest-1:test-alt-nx-run-commands`
 
 ## Local development
 
